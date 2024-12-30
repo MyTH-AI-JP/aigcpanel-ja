@@ -5,8 +5,11 @@
        url('iconfont.ttf?t=1730719072577') format('truetype');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+
 .iconfont {
-  font-family: "iconfont" !important;
+  font-family: "Noto Sans JP", "iconfont" !important;
+  font-weight: 400;
   font-size: 16px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
