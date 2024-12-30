@@ -2,89 +2,89 @@
 
 ![](./screenshots/cn/home.png)
 
-## 软件介绍
+## Introduction
 
-`AigcPanel` 是一个简单易用的一站式AI数字人系统，小白也可使用。
-支持视频合成、声音合成、声音克隆，简化本地模型管理、一键导入和使用AI模型。
+`AigcPanel` is a user-friendly all-in-one AI digital human system that's easy enough for beginners to use.
+It supports video synthesis, voice synthesis, voice cloning, and simplifies local model management with one-click model import and usage.
 
-> 禁止使用本产品进行违法违规业务，使用本软件请遵守中华人民共和国法律法规。
+> It is prohibited to use this product for illegal activities. Please comply with the laws and regulations of the People's Republic of China when using this software.
 
-## 功能特性
+## Features
 
-- 支持视频数字人合成，支持视频画面和声音换口型匹配
-- 支持语音合成、语音克隆，多种声音参数可设置
-- 支持多模型导入、一键启动、模型设置、模型日志查看
-- 支持国际化，支持简体中文、英语
-- 支持多种模型一键启动包：`MuseTalk`、`cosyvoice`
+- Supports digital human video synthesis, including video visuals and lip-sync matching
+- Supports text-to-speech and voice cloning with multiple adjustable voice parameters
+- Supports multiple model imports, one-click startup, model settings, and model log viewing
+- Supports internationalization with Japanese, Simplified Chinese, and English
+- Supports various one-click startup model packages: `MuseTalk`, `cosyvoice`
 
-## 效果预览
+## Demo
 
-参考 [demo](demo/) 中的视频文件。
+Check out the video files in the [demo](demo/) folder.
 
-## 功能预览
+## Feature Preview
 
-### 视频合成
+### Video Synthesis
 
 ![](./screenshots/cn/video-gen.png)
 
-### 语音克隆
+### Voice Cloning
 
 ![](./screenshots/cn/sound-clone.png)
 
-### 语音合成
+### Text-to-Speech
 
 ![](./screenshots/cn/sound-tts.png)
 
-### 模型管理
+### Model Management
 
 ![](./screenshots/cn/server.png)
 
-### 模型添加
+### Add Model
 
 ![](./screenshots/cn/server-add.png)
 
-### 模型日志
+### Model Logs
 
 ![](./screenshots/cn/server-log.png)
 
-### 关于
+### About
 
 ![](./screenshots/cn/setting.png)
 
-## 安装使用
+## Installation and Usage
 
 ### Windows
 
-- 访问 [https://aigcpanel.com](https://aigcpanel.com) 下载 Windows 安装包，一键安装即可
+- Visit [https://aigcpanel.com](https://aigcpanel.com) to download the Windows installer package and install with one click
 
-安装完成后，打开软件，下载模型一键启动包，即可使用。
+After installation, open the software and download the model startup packages to begin using.
 
-## 技术栈
+## Tech Stack
 
 - `electron`
 - `vue3`
 - `typescript`
 
-## 本地运行开发
+## Local Development
 
-> 仅在 node 20 测试过
+> Only tested with Node 20
 
 ```shell
-# 安装依赖
+# Install dependencies
 npm install
-# 调试运行
+# Run in debug mode
 npm run dev
-# 打包
+# Build
 npm run build
 ```
 
-## 加入交流群
+## Join Discussion Groups
 
 <table width="100%">
     <thead>
         <tr>
-            <th width="50%">微信群</th>
-            <th>QQ群</th>
+            <th width="50%">WeChat Group</th>
+            <th>QQ Group</th>
         </tr>
     </thead>
     <tbody>
@@ -101,7 +101,9 @@ npm run build
     </tbody>
 </table>
 
-## 本程序中使用到了以下开源项目，特此感谢
+## Acknowledgments
+
+This program uses the following open source projects:
 
 - [CosyVoice](https://github.com/FunAudioLLM/CosyVoice)
 - [MuseTalk](https://github.com/TMElyralab/MuseTalk)

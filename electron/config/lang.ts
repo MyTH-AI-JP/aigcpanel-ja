@@ -1,11 +1,12 @@
 import source from "./../../src/lang/source.json";
 import enUS from "./../../src/lang/en-US.json";
 import zhCN from "./../../src/lang/zh-CN.json";
+import jaJP from "./../../src/lang/ja-JP.json";
 import {isDev} from "../lib/env";
 import lang from "../mapi/lang/main";
 import {ConfigMain} from "../mapi/config/main";
 
-export const defaultLocale = 'zh-CN'
+export const defaultLocale = 'ja-JP'
 
 let locale = defaultLocale
 
@@ -19,6 +20,11 @@ export const langMessageList = [
         name: 'zh-CN',
         label: '简体中文',
         messages: zhCN
+    },
+    {
+        name: 'ja-JP',
+        label: '日本語',
+        messages: jaJP
     },
 ]
 

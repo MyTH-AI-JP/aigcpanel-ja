@@ -30,10 +30,12 @@ import {onLocaleChange} from "../lang"
 
 import zhCN from '@arco-design/web-vue/es/locale/lang/zh-cn';
 import enUS from '@arco-design/web-vue/es/locale/lang/en-us';
+import jaJP from '@arco-design/web-vue/es/locale/lang/ja-jp';
 
 const locales = {
     'zh-CN': zhCN,
     'en-US': enUS,
+    'ja-JP': jaJP,
 };
 
 const props = defineProps<{
@@ -46,7 +48,7 @@ const doClose = async () => {
     await window.$mapi.app.windowClose(props.name)
 }
 
-const locale = ref(zhCN);
+const locale = ref(jaJP);
 onLocaleChange((newLocale) => {
     locale.value = locales[newLocale];
 });

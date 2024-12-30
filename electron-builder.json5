@@ -63,7 +63,8 @@
         "languages": [
             "zh-CN",
             "en-US",
-            "zh-TW"
+            "zh-TW",
+            "ja-JP"
         ]
     },
     "mac": {

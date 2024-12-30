@@ -4,9 +4,10 @@ import {isDev} from "../lib/env";
 import source from "./source.json";
 import enUS from "./en-US.json";
 import zhCN from "./zh-CN.json";
+import jaJP from "./ja-JP.json";
 
 let localeInit = false
-export const defaultLocale = 'zh-CN'
+export const defaultLocale = 'ja-JP'
 
 export const messageList = [
     {
@@ -18,6 +19,11 @@ export const messageList = [
         name: 'zh-CN',
         label: '简体中文',
         messages: zhCN
+    },
+    {
+        name: 'ja-JP',
+        label: '日本語',
+        messages: jaJP
     },
 ]
 
